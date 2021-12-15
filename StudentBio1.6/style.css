@@ -1,0 +1,53 @@
+/* Comment in CSS */
+/* .Name is calling CLASS */
+/* #Name is calling ID */
+
+.lesson {
+    background-color:navajowhite;
+}
+
+.bod {
+
+}
+
+.title {
+
+}
+
+.lesson {
+
+}
+
+#paragraph{
+    background-color:darkslateblue;
+    background-color:lemonchiffon;
+}
+
+.email {
+}
+
+.github {
+
+}
+
+.portfolio {
+
+}
+
+.list {
+    color:tomato;
+}
+
+#list1 {
+    color:darkslateblue;
+    background-color:darkorange;
+}
+
+#list2 {
+    color:grey;
+    background-color:darkslateblue;
+}
+
+img{
+    border-radius:74%;
+}
