@@ -6,13 +6,32 @@
     background-color:navajowhite;
 }
 
+.box {
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
 .bod {
 
 }
 
 .title {
-
+   
 }
+
+
+.name{
+    padding: 8px;
+    position:relative;
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+    width: 110px;
+    border-width: 2px;
+    border-radius: 91%;
+    }
+
 
 .lesson {
 
@@ -24,18 +43,23 @@
 }
 
 .email {
+    background-color:darkslateblue;
+    background-color:lemonchiffon;
 }
 
 .github {
-
+    color:darkslateblue;
+    background-color:darkorange;
 }
 
 .portfolio {
-
+    color:tomato;
+    
 }
 
 .list {
     color:tomato;
+    background-color:lemonchiffon;
 }
 
 #list1 {
