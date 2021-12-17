@@ -2,6 +2,13 @@
 /* .Name is calling CLASS */
 /* #Name is calling ID */
 
+* { /* adding universal selector */
+    background-color:lightgreen; /* used universal selector to apply background color */
+    text-align: center; /* centered Text and images on page*/
+    list-style-position: inside; /* centered list on page*/
+
+}
+
 .lesson {
     background-color:navajowhite;
 }
@@ -11,15 +18,6 @@
     width: 100px;
     background-color: aquamarine;
 }
-
-.bod {
-
-}
-
-.title {
-   
-}
-
 
 .name{
     padding: 8px;
@@ -33,14 +31,24 @@
     }
 
 
-.lesson {
-
-}
+/*.lesson { }
+*/
 
 #paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
     background-color:darkslateblue;
-    background-color:lemonchiffon;
+    background-color:lemonchiffon; /* WHY DO I HAVE 2 BACKGROUND COLORS ON THIS LINE!!?*/
 }
+
+.contact {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight: 200;
+    text-align: justify;
+    text-transform: uppercase;
+}
+/*added to list class in H3 Contact info*/
 
 .email {
     background-color:darkslateblue;
