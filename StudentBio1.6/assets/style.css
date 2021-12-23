@@ -1,0 +1,170 @@
+/* Comment in CSS */
+/* .Name is calling CLASS */
+/* #Name is calling ID */
+
+* { /* adding universal selector */
+    box-sizing: border-box;
+    background-image:url(wave.jpg); /*background image from wikipedia displaying the Great Wave off Kanagawa*/
+    text-align: center; /* centered Text and images on page*/
+    list-style-position: inside; /* centered list on page*/
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    border-top: 10px solid darkblue;
+    border-left: 10px solid darkblue;
+    border-bottom: 10px solid darkblue;
+    border-right: 10px solid darkblue;
+    background-image: url(sun.jpg);
+    background-size:auto;
+    background-position:87% 100%;
+}
+
+h1{
+    background-image: none;
+}
+
+h2{
+   background-image: url(nova.jpg);
+   color:darkcyan
+}
+
+
+.nova{
+    background-image: url(nova.jpg);
+    background-blend-mode: luminosity;
+    opacity:.89;
+    
+}
+
+.box {
+    display:inline; /*displays Name at header in line*/
+    height: 300px;
+    width: 100px;
+}
+
+.name{
+    padding: 8px;
+    position:relative;
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+    width: 110px;
+    border-width: 2px;
+    border-radius: 81%;
+    display:inline; /*displays Name at header in line*/
+    height: 300px;
+    width: 100px;
+    }
+
+
+.title{
+    border-top: 10px solid darkblue;
+    border-left: 10px solid darkblue;
+    border-bottom: 10px solid darkblue;
+    border-right: 10px solid darkblue;
+}
+
+#paragraph{
+    color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight: 800;
+    background-image: none;
+   }
+
+.contact {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight: 200;
+    text-align: justify;
+    text-transform: uppercase;
+}
+/*added to list class in H3 Contact info*/
+
+.email {
+    color: black;
+}
+
+.github {
+    color: darkslateblue;
+}
+
+.portfolio {
+    color:tomato;
+    
+}
+
+.list {
+    width:fit-content;
+    display:flex;
+    flex-wrap:nowrap;
+    flex: 1 2 576px;
+    background-image: url(sun.jpg);
+    transform:scale(2,3,6);
+    border-radius:17px;
+    background-size: 150%;
+    background-clip: border-box;
+    text-align:justify;
+    text-rendering: optimizeSpeed;
+}
+
+#list1 {
+    color:rgb(104, 94, 173);
+    background-image: none;
+}
+
+#list2 {
+    color:grey;
+    background-image: none;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+img{
+    border-radius:74%;
+}
+
+/*.inline{
+    display:block;
+} /* used to center inline portrait of images in Student Bio*/
+
+
+.animate1{
+    animation-name: animate1;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animate2{
+    animation-name: animate2;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#neb{
+    background-image:url(neb.jiff);
+}
+
+@keyframes animate1{
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes animate2 {
+    0%   {left:0px; top:0px;}
+    75%  {left:0px; top:200px;}
+    50%  {left:200px; top:200px;}
+    25%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
