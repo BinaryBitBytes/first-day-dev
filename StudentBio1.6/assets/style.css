@@ -9,7 +9,32 @@
     list-style-position: inside; /* centered list on page*/
 }
 
+nav{
+    background-color:none;
+    background:none;
+    padding:5px;
+    border:5px dashed darkblue;
+    border-radius: 33%;
+
+}
+
+section{
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width:540px;
+    flex-wrap:wrap;
+    max-width:100%;
+    border:25px;
+    border-style: dotted solid double dashed;
+    padding: 15px;
+    -webkit-border-image: uel(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    -moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+}
+
 header{
+    opacity:.72;
     height: 150px;
     width: 100%;
     border-top: 10px solid darkblue;
@@ -32,9 +57,15 @@ h2{
 
 
 .nova{
+    padding:5px;
+    border: 10px solid darkblue;
+    justify-content: center;
     background-image: url(nova.jpg);
     background-blend-mode: luminosity;
-    opacity:.89;
+    opacity:.72;
+    font-weight: bolder;
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
@@ -60,6 +91,7 @@ h2{
 
 
 .title{
+    font-size: larger;
     border-top: 10px solid darkblue;
     border-left: 10px solid darkblue;
     border-bottom: 10px solid darkblue;
@@ -96,28 +128,18 @@ h2{
     
 }
 
-.list {
-    width:fit-content;
-    display:flex;
-    flex-wrap:nowrap;
-    flex: 1 2 576px;
-    background-image: url(sun.jpg);
-    transform:scale(2,3,6);
-    border-radius:17px;
-    background-size: 150%;
-    background-clip: border-box;
-    text-align:justify;
-    text-rendering: optimizeSpeed;
-}
 
 #list1 {
+    max-width:100% fit-content;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex: 1 2 300x;
     color:rgb(104, 94, 173);
-    background-image: none;
 }
 
 #list2 {
     color:grey;
-    background-image: none;
     font-size: x-large;
     font-weight: bolder;
 }
@@ -132,7 +154,7 @@ img{
 
 
 .animate1{
-    animation-name: animate1;
+    animation-name:animate1;
     animation-duration: 7s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -141,7 +163,7 @@ img{
 }
 
 .animate2{
-    animation-name: animate2;
+    animation-name:animate2;
     animation-duration: 7s;
     animation-timing-function: linear;
     animation-delay: 2s;
@@ -151,6 +173,18 @@ img{
 
 #neb{
     background-image:url(neb.jiff);
+}
+
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:576px) {
+
 }
 
 @keyframes animate1{

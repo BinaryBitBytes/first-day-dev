@@ -3,7 +3,7 @@
     <head><!--Header Start-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Set Viewport for smaller displays, mobile-->
-        <meta keywords= "Miles Colon, BinaryBitBytes"> <!--Meta tags keywords for my name and GIT-->
+        <meta keywords="Miles Colon, BinaryBitBytes"> <!--Meta tags keywords for my name and GIT-->
         <meta author="Miles Colon"> <!--Meta tag for author-->
         <title>Student Bio - Miles Colòn</title><!--Title-->
         <link rel="stylesheet" type="text/css" href="./assets/style.css" /><!--Linking style.css stylesheet and declaring type of file to browser-->
@@ -13,13 +13,20 @@
     <body><!--Body Start-->
         <div class="box">
             <header><!--Header for Body Start-->
-                <h1 class="title">Student Bio - Miles Colòn</h1><!--H1 tagged Header with Class attribute-->
+                <h1 class="title">Student Bio</h1><!--H1 tagged Header with Class attribute-->
+                <nav>
+                    <a href="#portrait">Portrait</a>
+                    <a href="#about">About Me</a>
+                    <a href="#contact">Contact Information</a>
+                    <a href="#int">Interests</a>
+                    <a href="#goal">Goals</a>
+                </nav>
                 <h3 class="name" id="neb">Name:</h3><!--H2 tagged for Name-->
-                <h3 class="name" id="neb">Miles Colon</h3><!--Name-->
+                <h3 class="name" id="neb">Miles Colòn</h3><!--Name-->
             </header><!--Closing Header for Body-->
 
             <section class="lesson">
-                <h2 class="title">Portrait</h2>
+                <h2 class="title" link="portrait">Portrait</h2>
                     <img class="animate1" id="inline" src="Tea.png" alt="Miles Colon" height="200px" width="200px">
                     <!--removed <br> to produce inline and added ID with inline attribute to get portraits
                     to float on center inline-->
@@ -30,7 +37,7 @@
             </section>
 
             <section class="nova">
-                <h2 class="title">About Me</h2>
+                <h2 class="title" id="about">About Me</h2>
                     <p id="paragraph">I am Miles Colòn.
                         I was born on February 4th, 1990 in Newnan, Georgia.
                         I have worked in Telecommunications, Networking,
@@ -40,39 +47,45 @@
                         great challenge.</p>
             </section>
             <section>
-                <h3 class="title">Contact Information</h3>
+                <h3 class="title" id="contact">Contact Information</h3>
                     <ol class="contact">
                         <li class="email"><strong>Email:</strong>
-                            <a href="mailto:117mwc117@gmail.com" target="_Blank">Miles Colòn
-                            </a> <!--Opens Email portal to email me at my gmail in new tab-->
+                            <span>
+                                <a href="mailto:117mwc117@gmail.com" target="_Blank">Miles Colòn
+                                </a> <!--Opens Email portal to email me at my gmail in new tab-->
+                            </span>
                         </li>
                         <li class="github"><strong>GitHub:</strong>
-                            <a href="https://github.com/BinaryBitBytes" target="_Blank">BinaryBitBytes
-                            </a> <!--Opens Github new tab-->
+                            <span>
+                                <a href="https://github.com/BinaryBitBytes" target="_Blank">BinaryBitBytes
+                                </a> <!--Opens Github new tab-->
+                            </span>
                         </li>
                         <li class="portfolio"><strong>Linked In:</strong>
-                            <a href="https://www.linkedin.com/in/binarybitbytes/" target="_Blank">BinaryBitBytes
-                            </a><!--Opens LinkedIn in a new tab-->
+                            <span>
+                                <a href="https://www.linkedin.com/in/binarybitbytes/" target="_Blank">BinaryBitBytes
+                                </a><!--Opens LinkedIn in a new tab-->
+                            </span>
                         </li>
                     </ol>
             </section>
 
             <section>
                 <div>
-                    <h3 class="title">Many of my interest include:</h3>
+                    <h3 class="title" id="int">Many of my interest include:</h3>
                         <ul><strong>
-                        <li id="list1">Technology</li>
-                        <li id="list1">Gaming</li>
-                        <li id="list1">3D Printing</li>
-                        <li id="list1">Software Development</li>
-                        </ul></strong>
+                            <li id="list1">Technology</li>
+                            <li id="list1">Gaming</li>
+                            <li id="list1">3D Printing</li>
+                            <li id="list1">Software Development</li>
+                        </strong></ul>
                 </div>
             </section>
             
             <section>
-                <h3 class="title">Some of my goals include:</h3>
+                <h3 class="title" id="goal">Some of my goals include:</h3>
                 <div>                
-                    <ol class="list">
+                    <ol>
                         <li id="list2">Invent & Patent a product
                         </li>
                         <li id="list2">Become a Software Developer
