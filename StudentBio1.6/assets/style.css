@@ -51,8 +51,8 @@ section{
     border:25px;
     border-style: dotted solid; /*double dashed;*/
     padding: 5px;
-    -webkit-border-image: uel(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
-    -moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    --webkit-border-image: uel(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    --moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
 }
 
@@ -60,10 +60,10 @@ header{
     opacity:.72;
     height: 150px;
     width: 100%;
-    border-top: 10px solid darkblue;
-    border-left: 10px solid darkblue;
-    border-bottom: 10px solid darkblue;
-    border-right: 10px solid darkblue;
+    border-top: 6px solid darkblue;
+    border-left: 6px solid darkblue;
+    border-bottom: 6px solid darkblue;
+    border-right: 6px solid darkblue;
     background-image: url(sun.jpg);
     background-size:auto;
     background-position:87% 100%;
@@ -90,7 +90,7 @@ h2{
 
 .nova{
     padding:5px;
-    border: 10px solid darkblue;
+    border: 6px solid darkblue;
     justify-content: center;
     background-image: url(nova.jpg);
     background-blend-mode:luminosity;
@@ -124,10 +124,10 @@ h2{
 
 .title{
     font-size: larger;
-    border-top: 10px solid darkblue;
-    border-left: 10px solid darkblue;
-    border-bottom: 10px solid darkblue;
-    border-right: 10px solid darkblue;
+    border-top: 6px solid darkblue;
+    border-left: 6px solid darkblue;
+    border-bottom: 6px solid darkblue;
+    border-right: 6px solid darkblue;
 }
 
 #paragraph{
@@ -151,14 +151,17 @@ h2{
 
 .email {
     color: darkcyan;
+    text-shadow:1px 1px gold;
 }
 
 .github {
-     color: darkcyan;
+    color: darkcyan;
+    text-shadow:1px 1px gold;
 }
 
 .portfolio {
     color:darkcyan;
+    text-shadow:1px 1px gold;
     
 }
 
@@ -177,7 +180,13 @@ h2{
     text-shadow:1px 1px lime;
 }
 
+.idNOback{
+    background:none;
+}
 
+#strong1{
+    background:none;
+}
 
 img{
     border-radius:74%;
@@ -229,30 +238,78 @@ img{
     50%  {left:200px; top:200px;}
     75%  {left:0px; top:200px;}
     100% {left:0px; top:0px;}
-  }
+}
 
-  @keyframes animate2 {
+@keyframes animate2 {
     0%   {left:0px; top:0px;}
     75%  {left:0px; top:200px;}
     50%  {left:200px; top:200px;}
     25%  {left:200px; top:0px;}
     100% {left:0px; top:0px;}
-  }
+}
 
-  #steamLink{
-      /*height: 30px;
-      width: 30px;*/
-      flex-grow: 1;
-      flex-wrap:wrap;
-      padding:15px;
-      /*border-radius:100%;*/
-      background:url(./steam.png) no-repeat center center;
-      -webkit-background-size:cover;
-      -moz-background-size:cover;
-      -o-background-size:cover;
-      overflow:visible;
-      cursor:pointer;
-  }
+#steamLink{
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./steam.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
+}
+
+#emailLink{
+justify-content:center;
+/*height: 30px;
+width: 30px;*/
+flex-grow: 1;
+flex-wrap:wrap;
+padding:15px;
+/*border-radius:100%;*/
+background:url(./email.png) no-repeat center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+overflow:visible;
+cursor:pointer;
+}
+
+#gitLink{
+justify-content:center;
+/*height: 30px;
+width: 30px;*/
+flex-grow: 1;
+flex-wrap:wrap;
+padding:15px;
+/*border-radius:100%;*/
+background:url(./Octocat/Octocat.png) no-repeat center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+overflow:visible;
+cursor:pointer;
+}
+
+#linkLink{
+justify-content:center;
+/*height: 30px;
+width: 30px;*/
+flex-grow: 1;
+flex-wrap:wrap;
+padding:15px;
+/*border-radius:100%;*/
+background:url(./LinkedIn-Logos/LI-In-Bug.png) no-repeat center center;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+overflow:visible;
+cursor:pointer;
+}
 
   #profile:hover{
       color: lawngreen;
