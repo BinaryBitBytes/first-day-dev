@@ -4,9 +4,31 @@
 
 * { /* adding universal selector */
     box-sizing: border-box;
-    background-image:url(wave.jpg); /*background image from wikipedia displaying the Great Wave off Kanagawa*/
+    background:url(wave.jpg) no-repeat center center fixed; /*background image from wikipedia displaying the Great Wave off Kanagawa*/
     text-align: center; /* centered Text and images on page*/
     list-style-position: inside; /* centered list on page*/
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ol{
+    background:none;
+    /*text-shadow: gold;
+    text-decoration-color: #685ead;*/
+    /*opacity:.85;*/
+    /*background-position: 50% 75%;*/
+    /*background-blend-mode: luminosity;*/
+}
+
+ul{
+    background:none;
+}
+
+li{
+    background:none;
 }
 
 nav{
@@ -19,6 +41,7 @@ nav{
 }
 
 section{
+    background-image: none;
     margin:auto;
     align-items: center;
     justify-content: center;
@@ -26,8 +49,8 @@ section{
     flex-wrap:wrap;
     max-width:100%;
     border:25px;
-    border-style: dotted solid double dashed;
-    padding: 15px;
+    border-style: dotted solid; /*double dashed;*/
+    padding: 5px;
     -webkit-border-image: uel(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
     -moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
     border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
@@ -52,17 +75,26 @@ h1{
 
 h2{
    background-image: url(nova.jpg);
-   color:darkcyan
+   color:darkcyan;
 }
 
+#profile{
+    color: green;
+    font-style: italic strong;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px;
+    border: 3px dotted tomato;
+    flex-wrap:nowrap;
+    display:inline-block;
+}
 
 .nova{
     padding:5px;
     border: 10px solid darkblue;
     justify-content: center;
     background-image: url(nova.jpg);
-    background-blend-mode: luminosity;
-    opacity:.72;
+    background-blend-mode:luminosity;
+    opacity:.735;
     font-weight: bolder;
     font-size:medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -107,6 +139,8 @@ h2{
    }
 
 .contact {
+    /*box-sizing: border-box;*/
+    width: 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:medium;
     font-weight: 200;
@@ -116,36 +150,38 @@ h2{
 /*added to list class in H3 Contact info*/
 
 .email {
-    color: black;
+    color: darkcyan;
 }
 
 .github {
-    color: darkslateblue;
+     color: darkcyan;
 }
 
 .portfolio {
-    color:tomato;
+    color:darkcyan;
     
 }
 
 
 #list1 {
-    max-width:100% fit-content;
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    flex: 1 2 300x;
-    color:rgb(104, 94, 173);
+    /*white-space:nowrap;*/
+    border: solid 5px darkblue;
+    max-width:50% fit-content;
+    /*display:flex;*/
+    padding: 8px;
+    display:inline-flexbox;
+    /*justify-content: center;*/
+    flex-wrap:nowrap;
+    flex: 1 2 300px;
+    color:rgb(165, 32, 32);
+    text-shadow:1px 1px lime;
 }
 
-#list2 {
-    color:grey;
-    font-size: x-large;
-    font-weight: bolder;
-}
+
 
 img{
     border-radius:74%;
+    border:tomato dotted 6px;
 }
 
 /*.inline{
@@ -201,4 +237,23 @@ img{
     50%  {left:200px; top:200px;}
     25%  {left:200px; top:0px;}
     100% {left:0px; top:0px;}
+  }
+
+  #steamLink{
+      /*height: 30px;
+      width: 30px;*/
+      flex-grow: 1;
+      flex-wrap:wrap;
+      padding:15px;
+      /*border-radius:100%;*/
+      background:url(./steam.png) no-repeat center center;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      overflow:visible;
+      cursor:pointer;
+  }
+
+  #profile:hover{
+      color: lawngreen;
   }

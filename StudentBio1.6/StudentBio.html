@@ -6,6 +6,7 @@
         <meta keywords="Miles Colon, BinaryBitBytes"> <!--Meta tags keywords for my name and GIT-->
         <meta author="Miles Colon"> <!--Meta tag for author-->
         <title>Student Bio - Miles Colòn</title><!--Title-->
+        <link rel="shortcut icon" href="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/18/1818a943bad7acfcf74eb946cfb0b705bda42aa5_full.jpg" type="image/jpg"/>
         <link rel="stylesheet" type="text/css" href="./assets/style.css" /><!--Linking style.css stylesheet and declaring type of file to browser-->
         <link rel="stylesheet" type="text/css" href="./assets/reset.css" /><!--Linking style.css stylesheet and declaring type of file to browser-->
     </head><!--Closing Header-->
@@ -27,15 +28,16 @@
 
             <section class="lesson">
                 <h2 class="title" link="portrait">Portrait</h2>
-                    <img class="animate1" id="inline" src="Tea.png" alt="Miles Colon" height="200px" width="200px">
+                    <img class="animate1" id="inline" src="./assets/Tea.png" alt="Miles Colon" height="200px" width="200px">
                     <!--removed <br> to produce inline and added ID with inline attribute to get portraits
                     to float on center inline-->
                     <img class="animate2" id="inline" src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/18/1818a943bad7acfcf74eb946cfb0b705bda42aa5_full.jpg" alt="My Avatar" height="200px" width="200px">
                     <!--.inline on style.css is commented out. When implemented please clear this comment. Thank you-->
-                    <br>
-                    <a href="https://steamcommunity.com/id/blackFlux_22/">Steam Profile</a>
-            </section>
-
+                <br>
+                <a id="profile" href="https://steamcommunity.com/id/blackFlux_22/" target="_Blank"><button type="button" id="steamLink" src="./assets/steam.png" url="https://steamcommunity.com/id/blackFlux_22/"></button></a>
+                <br>    
+                <a id="profile" href="https://steamcommunity.com/id/blackFlux_22/" target="_Blank">Steam Profile</a>
+                </section>
             <section class="nova">
                 <h2 class="title" id="about">About Me</h2>
                     <p id="paragraph">I am Miles Colòn.
@@ -46,58 +48,60 @@
                         to work on. I am always eager to learn new things and I love a
                         great challenge.</p>
             </section>
-            <section>
-                <h3 class="title" id="contact">Contact Information</h3>
+            <section class="nova">
+                <h2 class="title" id="contact">Contact Information</h2>
                     <ol class="contact">
                         <li class="email"><strong>Email:</strong>
                             <span>
                                 <a href="mailto:117mwc117@gmail.com" target="_Blank">Miles Colòn
-                                </a> <!--Opens Email portal to email me at my gmail in new tab-->
+                                <button type="button" id="steamLink" href="mailto:117mwc117@gmail.com" src="./assets/email.png"::after>"Email"
+                                </button>
+                                </a><!--Opens Email portal to email me at my gmail in new tab-->
                             </span>
                         </li>
                         <li class="github"><strong>GitHub:</strong>
                             <span>
                                 <a href="https://github.com/BinaryBitBytes" target="_Blank">BinaryBitBytes
                                 </a> <!--Opens Github new tab-->
+                                <button type="button" class="">::after "GitHub"
+                                </button>
                             </span>
                         </li>
                         <li class="portfolio"><strong>Linked In:</strong>
                             <span>
                                 <a href="https://www.linkedin.com/in/binarybitbytes/" target="_Blank">BinaryBitBytes
                                 </a><!--Opens LinkedIn in a new tab-->
+                                <button type="button" class="">::after "LinkedIn"
+                                </button>
                             </span>
                         </li>
                     </ol>
             </section>
 
-            <section>
-                <div>
-                    <h3 class="title" id="int">Many of my interest include:</h3>
-                        <ul><strong>
-                            <li id="list1">Technology</li>
-                            <li id="list1">Gaming</li>
-                            <li id="list1">3D Printing</li>
-                            <li id="list1">Software Development</li>
-                        </strong></ul>
-                </div>
+            <section class=nova>
+                    <h2 class="title" id="int">Many of my interest include:</h2>
+                            <ul id="list1"><strong>
+                                    <li id="tech">Technology</li>
+                                    <li id="game">Gaming</li>
+                                    <li id="3d">3D Printing</li>
+                                    <li id="soft">Software Development</li>
+                            </strong></ul>
             </section>
             
-            <section>
-                <h3 class="title" id="goal">Some of my goals include:</h3>
-                <div>                
-                    <ol>
-                        <li id="list2">Invent & Patent a product
-                        </li>
-                        <li id="list2">Become a Software Developer
-                        </li>
-                        <li id="list2">Get a masters degree or doctorates degree specializing in technology
-                        </li>
-                        <li id="list2">Make a contribution to our wold and humanity
-                        </li>
-                        <li id="list2">Build and Grow my LLC company to one day become a leader in technology
-                        </li>
-                    </ol>
-                </div>
+            <section class="nova">
+                <h2 class="title" id="goal">Some of my goals include:</h2>               
+                        <ol id="list1"><strong>
+                            <li id="invent">Invent & Patent a product
+                            </li>
+                            <li id="soft">Become a Software Developer
+                            </li>
+                            <li id="edu">Get a masters degree specializing in technology
+                            </li>
+                            <li id="life">Make a contribution to our wold and humanity
+                            </li>
+                            <li id="llc">Grow my LLC company to become a leader in technology
+                            </li>
+                        </strong>></ol>
             </section>
         </div>
     </body>
