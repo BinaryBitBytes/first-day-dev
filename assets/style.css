@@ -1,0 +1,316 @@
+/* Comment in CSS */
+/* .Name is calling CLASS */
+/* #Name is calling ID */
+
+* { /* adding universal selector */
+    box-sizing: border-box;
+    background:url(wave.jpg) no-repeat center center fixed; /*background image from wikipedia displaying the Great Wave off Kanagawa*/
+    text-align: center; /* centered Text and images on page*/
+    list-style-position: inside; /* centered list on page*/
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ol{
+    background:none;
+    /*text-shadow: gold;
+    text-decoration-color: #685ead;*/
+    /*opacity:.85;*/
+    /*background-position: 50% 75%;*/
+    /*background-blend-mode: luminosity;*/
+}
+
+ul{
+    background:none;
+}
+
+li{
+    background:none;
+}
+
+nav{
+    background-color:none;
+    background:none;
+    padding:5px;
+    border:5px dashed darkblue;
+    border-radius: 33%;
+
+}
+
+section{
+    background-image: none;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width:540px;
+    flex-wrap:wrap;
+    max-width:100%;
+    border:25px;
+    border-style: dotted solid; /*double dashed;*/
+    padding: 5px;
+    --webkit-border-image: uel(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    --moz-border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+    border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKC2G6hyIgty9g1_bo1uMKSXpL2kdV8AV7rg&usqp=CAU);
+}
+
+header{
+    opacity:.72;
+    height: 150px;
+    width: 100%;
+    border-top: 6px solid darkblue;
+    border-left: 6px solid darkblue;
+    border-bottom: 6px solid darkblue;
+    border-right: 6px solid darkblue;
+    background-image: url(sun.jpg);
+    background-size:auto;
+    background-position:87% 100%;
+}
+
+h1{
+    background-image: none;
+}
+
+h2{
+   background-image: url(nova.jpg);
+   color:darkcyan;
+}
+
+#profile{
+    color: green;
+    font-style: italic strong;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px;
+    border: 3px dotted tomato;
+    flex-wrap:nowrap;
+    display:inline-block;
+}
+
+.nova{
+    padding:5px;
+    border: 6px solid darkblue;
+    justify-content: center;
+    background-image: url(nova.jpg);
+    background-blend-mode:luminosity;
+    opacity:.735;
+    font-weight: bolder;
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.box {
+    display:inline; /*displays Name at header in line*/
+    height: 300px;
+    width: 100px;
+}
+
+.name{
+    padding: 8px;
+    position:relative;
+    text-align: center;
+    text-transform: uppercase;
+    height: 45px;
+    width: 110px;
+    border-width: 2px;
+    border-radius: 81%;
+    display:inline; /*displays Name at header in line*/
+    height: 300px;
+    width: 100px;
+    }
+
+
+.title{
+    font-size: larger;
+    border-top: 6px solid darkblue;
+    border-left: 6px solid darkblue;
+    border-bottom: 6px solid darkblue;
+    border-right: 6px solid darkblue;
+}
+
+#paragraph{
+    color:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-weight: 800;
+    background-image: none;
+   }
+
+.contact {
+    /*box-sizing: border-box;*/
+    width: 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight: 200;
+    text-align: justify;
+    text-transform: uppercase;
+}
+/*added to list class in H3 Contact info*/
+
+.email {
+    color: darkcyan;
+    text-shadow:1px 1px gold;
+}
+
+.github {
+    color: darkcyan;
+    text-shadow:1px 1px gold;
+}
+
+.portfolio {
+    color:darkcyan;
+    text-shadow:1px 1px gold;
+    
+}
+
+
+#list1 {
+    /*white-space:nowrap;*/
+    border: solid 5px darkblue;
+    max-width:50% fit-content;
+    /*display:flex;*/
+    padding: 8px;
+    display:inline-flexbox;
+    /*justify-content: center;*/
+    flex-wrap:nowrap;
+    flex: 1 2 300px;
+    color:rgb(165, 32, 32);
+    text-shadow:1px 1px lime;
+}
+
+.idNOback{
+    background:none;
+}
+
+#strong1{
+    background:none;
+}
+
+img{
+    border-radius:74%;
+    border:tomato dotted 6px;
+}
+
+/*.inline{
+    display:block;
+} /* used to center inline portrait of images in Student Bio*/
+
+
+.animate1{
+    animation-name:animate1;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animate2{
+    animation-name:animate2;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#neb{
+    background-image:url(neb.jiff);
+}
+
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:576px) {
+
+}
+
+@keyframes animate1{
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes animate2 {
+    0%   {left:0px; top:0px;}
+    75%  {left:0px; top:200px;}
+    50%  {left:200px; top:200px;}
+    25%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+#steamLink{
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./steam.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
+}
+
+#emailLink{
+    justify-content:center;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./email.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
+}
+
+#gitLink{
+justify-content:center;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./Octocat/Octocat.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
+}
+
+#linkLink{
+    justify-content:center;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./LinkedIn-Logos/LI-In-Bug.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
+}
+
+  #profile:hover{
+      color: lawngreen;
+  }

@@ -264,51 +264,51 @@ img{
 }
 
 #emailLink{
-justify-content:center;
-/*height: 30px;
-width: 30px;*/
-flex-grow: 1;
-flex-wrap:wrap;
-padding:15px;
-/*border-radius:100%;*/
-background:url(./email.png) no-repeat center center;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-overflow:visible;
-cursor:pointer;
+    justify-content:center;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./email.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
 }
 
 #gitLink{
 justify-content:center;
-/*height: 30px;
-width: 30px;*/
-flex-grow: 1;
-flex-wrap:wrap;
-padding:15px;
-/*border-radius:100%;*/
-background:url(./Octocat/Octocat.png) no-repeat center center;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-overflow:visible;
-cursor:pointer;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./Octocat/Octocat.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
 }
 
 #linkLink{
-justify-content:center;
-/*height: 30px;
-width: 30px;*/
-flex-grow: 1;
-flex-wrap:wrap;
-padding:15px;
-/*border-radius:100%;*/
-background:url(./LinkedIn-Logos/LI-In-Bug.png) no-repeat center center;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-overflow:visible;
-cursor:pointer;
+    justify-content:center;
+    /*height: 30px;
+    width: 30px;*/
+    flex-grow: 1;
+    flex-wrap:wrap;
+    padding:15px;
+    /*border-radius:100%;*/
+    background:url(./LinkedIn-Logos/LI-In-Bug.png) no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow:visible;
+    cursor:pointer;
 }
 
   #profile:hover{
