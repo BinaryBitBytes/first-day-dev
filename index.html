@@ -15,20 +15,19 @@
         <div class="box">
             <header><!--Header for Body Start-->
                 <h1 class="title">Student Bio</h1><!--H1 tagged Header with Class attribute-->
-                <nav>
-                    <a href="#portrait">Portrait</a>
-                    <a href="#about">About Me</a>
-                    <a href="#contact">Contact Information</a>
-                    <a href="#int">Interests</a>
-                    <a href="#goal">Goals</a>
+                <nav><!--Navigation Link-->
+                    <a href="#portrait">Portrait</a> <!--navigates to the portraits on page-->  
+                    <a href="#about">About Me</a> <!--Navigates to about me-->
+                    <a href="#contact">Contact Information</a><!--Navigates to contact information-->
+                    <a href="#int">Interests</a><!--Navigates to my interest-->
+                    <a href="#goal">Goals</a> <!--Navigates to my goals-->
                 </nav>
-                <h3 class="name" id="neb">Name:</h3><!--H2 tagged for Name-->
                 <h3 class="name" id="neb">Miles Colòn</h3><!--Name-->
             </header><!--Closing Header for Body-->
 
             <section class="lesson">
                 <h2 class="title" link="portrait">Portrait</h2>
-                    <img class="animate1" id="inline" src="./assets/Tea.png" alt="Miles Colon" height="200px" width="200px">
+                    <img class="animate1" id="inline" src="./assets/Tea.png" alt="Miles Colon" height="200px" width="200px"> <!--Makes Image 200 px by 200px-->
                     <!--removed <br> to produce inline and added ID with inline attribute to get portraits
                     to float on center inline-->
                     <img class="animate2" id="inline" src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/18/1818a943bad7acfcf74eb946cfb0b705bda42aa5_full.jpg" alt="My Avatar" height="200px" width="200px">
@@ -74,7 +73,8 @@
                             <span>
                                 <a href="https://www.linkedin.com/in/binarybitbytes/" target="_Blank">BinaryBitBytes
                                 <!--Opens LinkedIn in a new tab-->
-                                <button type="button" id="linkLink" url="https://www.linkedin.com/in/binarybitbytes" target="_Blank"::after>                                </button>
+                                <button type="button" id="linkLink" url="https://www.linkedin.com/in/binarybitbytes" target="_Blank"::after>
+                                </button>
                                 </a>
                             </span>
                         </li>
@@ -83,7 +83,7 @@
 
             <section class=nova>
                     <h2 class="title" id="int">Many of my interest include:</h2>
-                            <ul id="list1"><strong>
+                            <ul id="list1"><strong> <!--Unordered List-->
                                     <li id="tech">Technology</li>
                                     <li id="game">Gaming</li>
                                     <li id="3d">3D Printing</li>
@@ -93,7 +93,7 @@
             
             <section class="nova">
                 <h2 class="title" id="goal">Some of my goals include:</h2>               
-                        <ol id="list1"><strong>
+                        <ol id="list1"><strong> <!--Ordered List-->
                             <li id="invent">Invent & Patent a product
                             </li>
                             <li id="soft">Become a Software Developer
@@ -105,6 +105,11 @@
                             <li id="llc">Grow my LLC company to become a leader in technology
                             </li>
                         </strong>></ol>
+            </section>
+
+            <section class="nova">
+                <h2 class="title" id="projects">My Projects</h2>
+                    <button type="button" id="project1" link="https://binarybitbytes.github.io/first-day-dev/" url="https://binarybitbytes.github.io/first-day-dev/index.html" target="_Blank"::after>Portfolio</button>
             </section>
         </div>
     </body>

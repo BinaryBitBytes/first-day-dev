@@ -139,8 +139,8 @@ h2{
    }
 
 .contact {
-    /*box-sizing: border-box;*/
-    width: 
+    /*box-sizing: border-box;
+    width: */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:medium;
     font-weight: 200;
@@ -220,19 +220,46 @@ img{
     background-image:url(neb.jiff);
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:992px){
+    body {
+        background-image:url(./star.jpg) ;
+    }
 
 }
 
 @media screen and (max-width:768px) {
+        .title {
+            background-image:url(./steam.png);
+            background-size: 10%;
+        }
 
 }
 
 @media screen and (max-width:576px) {
+        .github,.email,.portfolio {
+            color: gold;
+        }
+
+        .title,.name {
+            text-size-adjust: 200%;
+            font-size:x-large;
+            font-family: fantasy;
+            font-weight:bolder;
+        }
+
+        section{
+            border-image:url(./Octocat/Octocat.jpg);
+        }
+
+        
+        nav,img,header,.nova,.title,#list1 {
+            border: 4px dotted limegreen;
+        }
+
 
 }
 
-@keyframes animate1{
+/*@keyframes animate1{
     0%   {left:0px; top:0px;}
     25%  {left:200px; top:0px;}
     50%  {left:200px; top:200px;}
@@ -246,7 +273,7 @@ img{
     50%  {left:200px; top:200px;}
     25%  {left:200px; top:0px;}
     100% {left:0px; top:0px;}
-}
+} */
 
 #steamLink{
     /*height: 30px;
@@ -264,6 +291,8 @@ img{
 }
 
 #emailLink{
+    margin-bottom:10px;
+    margin-left:10px;
     justify-content:center;
     /*height: 30px;
     width: 30px;*/
@@ -280,7 +309,9 @@ img{
 }
 
 #gitLink{
-justify-content:center;
+    margin-bottom:10px;
+    margin-left:10px;
+    justify-content:center;
     /*height: 30px;
     width: 30px;*/
     flex-grow: 1;
@@ -296,6 +327,8 @@ justify-content:center;
 }
 
 #linkLink{
+    margin-bottom:10px;
+    margin-left:10px;
     justify-content:center;
     /*height: 30px;
     width: 30px;*/
