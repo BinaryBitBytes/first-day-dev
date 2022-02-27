@@ -188,10 +188,14 @@ h2{
     background:none;
 }
 
+/* puts read border around pictures. need to NOT target resume!
 img{
     border-radius:74%;
     border:tomato dotted 6px;
 }
+
+
+*/
 
 /*.inline{
     display:block;
