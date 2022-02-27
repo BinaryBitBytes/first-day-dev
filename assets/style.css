@@ -78,6 +78,11 @@ h2{
    color:darkcyan;
 }
 
+h6{
+    background-image: url(nova.jpg);
+    color:darkcyan;
+}
+
 #profile{
     color: green;
     font-style: italic strong;
