@@ -107,6 +107,15 @@ h2{
     width: 100px;
 }
 
+.me{
+    border-radius:74%;
+    border:tomato dotted 6px;
+}
+
+.resume{
+    auto;
+}
+
 .name{
     padding: 8px;
     position:relative;
